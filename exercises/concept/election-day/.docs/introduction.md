@@ -41,7 +41,7 @@ int side_acc{-20};
 int& savings{main_acc};
 // => main_acc and savings are 1'000'000
 
-// try to reseat savings to use main account
+// try to reseat savings to use side account
 savings = side_acc;
 // savings and main_acc are now -20
 // as this uses the **value** of side_acc
